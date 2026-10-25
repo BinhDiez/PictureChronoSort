@@ -4,7 +4,7 @@
 
 PictureChronoSort sortiert deine Foto- und Videosammlung automatisch nach dem Aufnahmedatum in eine übersichtliche Jahr/Monat-Struktur. Darüber hinaus kannst du Text oder Ort nach dem Zeitstempel ergänzen, das Aufnahmedatum korrigieren und vom Programm gesetzte Metadaten gezielt bereinigen.
 
-⸻
+---
 
 ## ✨ Funktionsumfang
 
@@ -20,7 +20,7 @@ PictureChronoSort sortiert deine Foto- und Videosammlung automatisch nach dem Au
 * Undo-Funktion – jeder echte Lauf ist rückgängig machbar
 * Ausführliche Logs – Run-Log, Fehler-Log, Undo-Log und Crash-Log
 
-⸻
+---
 
 <details>
 <summary>📦 Installation</summary>
@@ -45,9 +45,9 @@ Lade die aktuelle .app aus den Releases herunter. Die App ist für macOS gebaut 
 
 </details>
 
-⸻
+---
 
-🚀 Bedienung
+## 🚀 Bedienung
 
 1. Quellordner wählen – dein Import-Ordner (z. B. _Import)
 2. Zielordner wählen – dein Archiv (z. B. _Ausgabe)
@@ -56,7 +56,6 @@ Lade die aktuelle .app aus den Releases herunter. Die App ist für macOS gebaut 
 5. Verarbeitung starten – Log prüfen
 6. Dry-Run ausschalten – echten Lauf starten
 
-⸻
 
 <details>
 <summary>⌨️ Tastaturbedienung</summary>
@@ -71,9 +70,9 @@ Der aktuell fokussierte Button wird durch einen weißen Rahmen hervorgehoben.
 
 </details>
 
-⸻
+---
 
-🛠️ Die Modi im Detail
+## 🛠️ Die Modi im Detail
 
 <details>
 <summary>📁 organize – Organisieren (Standard)</summary>
@@ -84,7 +83,7 @@ Der ursprüngliche Dateiname wird in XPTitle gespeichert, damit er später wiede
 
 </details>
 
-⸻
+---
 
 <details>
 <summary>🔍 dedupe_only – Nur Duplikate behandeln</summary>
@@ -98,7 +97,7 @@ Sucht Dateien mit identischem Inhalt (SHA-256-Hash) und behandelt sie je nach ge
 
 </details>
 
-⸻
+---
 
 <details>
 <summary>🕒 timestamps_only – Nur Zeitstempel erneuern</summary>
@@ -109,7 +108,7 @@ Nützlich nach einem NAS-Sync, weil der Erstellungszeitstempel dabei oft verlore
 
 </details>
 
-⸻
+---
 
 <details>
 <summary>📅 fix_capture_date – Aufnahmedatum korrigieren</summary>
@@ -126,7 +125,7 @@ Du kannst:
 
 </details>
 
-⸻
+---
 
 <details>
 <summary>📍 add_text – Text/Ort nach Zeitstempel setzen</summary>
@@ -146,7 +145,7 @@ Optionen
 
 </details>
 
-⸻
+---
 
 <details>
 <summary>🧹 clean_metadata – Vom Programm gesetzte Metadaten bereinigen</summary>
@@ -160,7 +159,7 @@ Die Datumsfelder (DateTimeOriginal, CreateDate, ModifyDate) und die Finder-Zeits
 
 </details>
 
-⸻
+---
 
 <details>
 <summary>🔄 Kombinierter Lauf: „Erst organisieren, dann Text setzen“</summary>
@@ -174,7 +173,7 @@ Ideal für den ersten Import, wenn du bereits weißt, wo die Fotos aufgenommen w
 
 </details>
 
-⸻
+---
 
 <details>
 <summary>🏷️ Metadaten-Schema</summary>
@@ -191,9 +190,9 @@ Andernfalls bleibt er in den Metadaten gespeichert, wird aber nicht angezeigt.
 
 </details>
 
-⸻
+---
 
-🛡️ Sicherheitsnetze
+## 🛡️ Sicherheitsnetze
 
 <details>
 <summary>🧪 Dry-Run (Testlauf)</summary>
@@ -204,7 +203,7 @@ Im Log siehst du genau, welche Datei wohin verschoben oder wie sie umbenannt wü
 
 </details>
 
-⸻
+---
 
 <details>
 <summary>↩️ Undo-Funktion</summary>
@@ -226,7 +225,7 @@ Nicht rückgängig machbar: trash und delete.
 
 </details>
 
-⸻
+---
 
 <details>
 <summary>💾 Sicherheitskopie vor Datumskorrekturen</summary>
@@ -237,7 +236,7 @@ Die Datei wird als exif_backup_*.txt im Ordner logs/ gespeichert.
 
 </details>
 
-⸻
+---
 
 <details>
 <summary>⚠️ Bestätigung bei echtem Lauf</summary>
@@ -248,7 +247,7 @@ So kannst du nicht versehentlich einen Testlauf mit einem echten Lauf verwechsel
 
 </details>
 
-⸻
+---
 
 <details>
 <summary>📋 Logdateien</summary>
@@ -271,22 +270,7 @@ Beim Programmstart werden automatisch alte Logs gelöscht.
 
 </details>
 
-⸻
-
-<details>
-<summary>⌨️ Tastaturbedienung</summary>
-
-* Tab – wechselt zwischen Eingabefeldern und Buttons
-* Shift + Tab – rückwärts navigieren
-* Pfeiltasten – wechseln zwischen Buttons (OK ↔ Abbrechen)
-* Enter – löst den fokussierten Button aus
-* Esc – schließt den Dialog ab (Abbrechen)
-
-Der aktuell fokussierte Button wird durch einen weißen Rahmen hervorgehoben.
-
-</details>
-
-⸻
+---
 
 <details>
 <summary>💻 Systemanforderungen</summary>
@@ -297,7 +281,7 @@ Der aktuell fokussierte Button wird durch einen weißen Rahmen hervorgehoben.
 
 </details>
 
-⸻
+---
 
 <details>
 <summary>📄 Lizenz und Drittanbieter</summary>
@@ -398,7 +382,7 @@ Bei der Weitergabe einer Anwendung, die Python oder Bestandteile der Python-Lauf
 
 </details>
 
-⸻
+---
 
 <details>
 <summary>📜 Versionsverlauf / Change Log</summary>
@@ -432,7 +416,7 @@ Was ist neu?
 
 </details>
 
-⸻
+---
 
 👤 Autor
 
@@ -441,7 +425,7 @@ BinhDiez
 * GitHub: @BinhDiez⁠￼
 * Projekt: PictureChronoSort⁠￼
 
-⸻
+---
 
 🙏 Danksagungen
 
@@ -452,7 +436,7 @@ Diese App wäre ohne die folgenden Open-Source-Projekte nicht möglich:
 * send2trash – Papierkorb-Unterstützung
 * Nominatim / OpenStreetMap – Reverse-Geocoding für GPS-Vorschläge
 
-⸻
+---
 
 <details>
 <summary>🤝 Beitragen</summary>
@@ -471,7 +455,7 @@ Bitte als Issue⁠￼ melden.
 
 </details>
 
-⸻
+---
 
 ⭐ Unterstützung
 
@@ -479,7 +463,7 @@ Wenn PictureChronoSort dir hilft, freue ich mich über einen Star auf GitHub!
 
 Viel Erfolg beim Sortieren deiner Bilder!
 
-⸻
+---
 
 <details>
 <summary>🔒 macOS Gatekeeper – Informationen</summary>
@@ -507,7 +491,7 @@ Passe den Dateipfad entsprechend deinem Speicherort an.
 
 </details>
 
-⸻
+---
 
 <details>
 <summary>🖥️ Download-Informationen</summary>
@@ -526,7 +510,7 @@ Windows	7-Zip – https://www.7-zip.org/
 
 </details>
 
-⸻
+---
 
 <details>
 <summary>🔑 7z-Passwort</summary>

@@ -1,6 +1,6 @@
 # PictureChronoSort
 
-Foto- und Video-Organizer für macOS – mit Zeitstempel-, Text- und Metadaten-Korrektur
+## Foto- und Video-Organizer für macOS – mit Zeitstempel-, Text- und Metadaten-Korrektur
 
 PictureChronoSort sortiert deine Foto- und Videosammlung automatisch nach dem Aufnahmedatum in eine übersichtliche Jahr/Monat-Struktur. Darüber hinaus kannst du Text oder Ort nach dem Zeitstempel ergänzen, das Aufnahmedatum korrigieren und vom Programm gesetzte Metadaten gezielt bereinigen.
 

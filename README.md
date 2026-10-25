@@ -6,7 +6,7 @@ PictureChronoSort sortiert deine Foto- und Videosammlung automatisch nach dem Au
 
 ⸻
 
-✨ Funktionsumfang
+✨ ## Funktionsumfang
 
 * Automatische Sortierung nach Aufnahmedatum in Jahr/Jahr-Monat/JJJJ-MM-TT_HHMMSS.ext
 * Duplikat-Erkennung über SHA-256-Hash mit flexibler Behandlungsstrategie

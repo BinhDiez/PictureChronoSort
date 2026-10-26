@@ -326,20 +326,15 @@ genannten Lizenzen.
 
 ---
 
-2. THIRD_PARTY_LICENSES.txt
+2. THIRD_PARTY_LICENSES
 
-================================================================================
-THIRD-PARTY LICENSES
 PictureChronoSort
-================================================================================
 
 Dieses Programm nutzt die folgenden Open-Source-Komponenten. Die jeweiligen
 Copyright-Hinweise und Lizenzbedingungen gelten zusätzlich zur MIT-Lizenz
 dieses Projekts.
 
---------------------------------------------------------------------------------
 1. PySide6 / Qt
---------------------------------------------------------------------------------
 
 PySide6 wird von der Qt Company unter der GNU Lesser General Public License
 (LGPL) Version 3 vertrieben. Qt selbst steht unter LGPLv3 bzw. GPLv3,
@@ -358,9 +353,7 @@ Hinweis: Der Quellcode von PySide6 und Qt ist öffentlich verfügbar.
 Bei einer Weitergabe der App als Binärpaket sind die LGPL-Pflichten
 (Quellcode-Verfügbarkeit, Änderbarkeit der Bibliothek) zu beachten.
 
---------------------------------------------------------------------------------
 2. ExifTool
---------------------------------------------------------------------------------
 
 ExifTool wird von Phil Harvey unter der Perl Artistic License bzw. der
 GNU General Public License (GPL) vertrieben. Dieses Programm nutzt die
@@ -374,9 +367,7 @@ https://opensource.org/licenses/Artistic-2.0
 Weitere Informationen:
 https://exiftool.org/
 
---------------------------------------------------------------------------------
 3. send2trash
---------------------------------------------------------------------------------
 
 send2trash wird unter der BSD-3-Clause-Lizenz vertrieben.
 
@@ -389,9 +380,7 @@ https://opensource.org/licenses/BSD-3-Clause
 Weitere Informationen:
 https://github.com/arsenetar/send2trash
 
---------------------------------------------------------------------------------
 4. Nominatim / OpenStreetMap
---------------------------------------------------------------------------------
 
 Die GPS-Vorschlagsfunktion nutzt den Nominatim-Dienst, der auf Daten von
 OpenStreetMap basiert. Die Daten stehen unter der Open Database License
@@ -412,9 +401,7 @@ Hinweis: Bei der Anzeige oder Speicherung von Ortsdaten, die aus
 OpenStreetMap stammen, ist die Quellenangabe
 "© OpenStreetMap-Mitwirkende" erforderlich.
 
---------------------------------------------------------------------------------
 5. Python
---------------------------------------------------------------------------------
 
 Python wird unter der Python Software Foundation License (PSF) vertrieben.
 
@@ -423,17 +410,13 @@ Copyright (C) 2001-2026 Python Software Foundation.
 Lizenztext (PSF License):
 https://docs.python.org/3/license.html
 
---------------------------------------------------------------------------------
 6. Sonstige Abhängigkeiten
---------------------------------------------------------------------------------
 
 Darüber hinaus können weitere transitive Abhängigkeiten (z. B. shiboken6,
 Qt-Plugins) mit ausgeliefert werden. Deren Lizenztexte sind in den
 jeweiligen Paketen enthalten und gelten zusätzlich.
 
-================================================================================
 Ende der Drittanbieter-Lizenzhinweise
-================================================================================
 
 </details>
 

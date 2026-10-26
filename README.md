@@ -288,18 +288,21 @@ Beim Programmstart werden automatisch alte Logs gelöscht.
 
 Lizenz von PictureChronoSort
 
-Der Quellcode von PictureChronoSort wird unter der MIT License veröffentlicht, soweit nicht ausdrücklich anders angegeben.
 
 MIT License
+
 Copyright (c) 2026 BinhDiez
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
+
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -308,77 +311,129 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Verwendete Drittanbieter und deren Lizenzen
+---
 
-PictureChronoSort verwendet Open-Source-Software und gegebenenfalls weitere Komponenten, die eigenen Lizenzbedingungen unterliegen. Die MIT-Lizenz von PictureChronoSort ersetzt diese Lizenzbedingungen nicht.
+Hinweis zu Drittanbieter-Komponenten:
 
-1. PyQt5
+Dieses Programm nutzt verschiedene Open-Source-Bibliotheken und -Werkzeuge,
+die unter eigenen Lizenzen stehen. Die vollständigen Lizenztexte und
+Copyright-Hinweise der Drittanbieter sind in der Datei
+THIRD_PARTY_LICENSES.txt enthalten, die mit diesem Programm ausgeliefert wird.
 
-PyQt5 stellt die Python-Bindings für das Qt-GUI-Framework bereit. PyQt5 wird unter der GNU General Public License Version 3 (GPLv3) oder einer kommerziellen Lizenz von Riverbank Computing angeboten.
+Die MIT-Lizenz gilt ausschließlich für den eigenen Quellcode dieses Projekts.
+Für die Drittanbieter-Komponenten gelten die Bedingungen der jeweils
+genannten Lizenzen.
 
-Bei Verwendung der GPL-Version müssen die anwendbaren GPL-Bedingungen eingehalten werden. Dazu können insbesondere Anforderungen an die Lizenzierung des Gesamtprogramms, die Bereitstellung des Quellcodes und die Weitergabe von Lizenzinformationen gehören.
+---
 
-Eine kommerzielle PyQt-Lizenz unterliegt eigenen Bedingungen.
+2. THIRD_PARTY_LICENSES.txt
 
-* Hersteller: Riverbank Computing Limited
-* Lizenzinformationen: https://www.riverbankcomputing.com/software/pyqt
-* GPLv3: https://www.gnu.org/licenses/gpl-3.0.html
+================================================================================
+THIRD-PARTY LICENSES
+PictureChronoSort
+================================================================================
 
-Wichtiger Hinweis: Die Veröffentlichung des Gesamtprojekts unter MIT darf nicht als pauschale Aussage verstanden werden, dass eine mit der GPL-Version von PyQt5 gebündelte Anwendung uneingeschränkt unter MIT weitergegeben werden kann. Die konkrete Kombination und Art der Weitergabe müssen lizenzrechtlich geprüft werden.
+Dieses Programm nutzt die folgenden Open-Source-Komponenten. Die jeweiligen
+Copyright-Hinweise und Lizenzbedingungen gelten zusätzlich zur MIT-Lizenz
+dieses Projekts.
 
-2. Qt
+--------------------------------------------------------------------------------
+1. PySide6 / Qt
+--------------------------------------------------------------------------------
 
-Qt ist das zugrunde liegende Anwendungsframework, das von PyQt5 verwendet wird. Die Qt-Bibliotheken und gegebenenfalls mitgelieferte Module können unterschiedlichen Lizenzbedingungen unterliegen.
+PySide6 wird von der Qt Company unter der GNU Lesser General Public License
+(LGPL) Version 3 vertrieben. Qt selbst steht unter LGPLv3 bzw. GPLv3,
+je nach Komponente.
 
-Bei der Weitergabe einer fertigen Anwendung müssen die Lizenzen der tatsächlich enthaltenen Qt-Komponenten berücksichtigt werden.
+Copyright (C) 2016-2026 The Qt Company Ltd.
+Copyright (C) 2015-2026 Qt Contributors.
 
-* Projekt und Lizenzinformationen: https://www.qt.io/licensing
+Lizenztext (LGPL v3):
+https://www.gnu.org/licenses/lgpl-3.0.html
 
-3. ExifTool
+Weitere Informationen:
+https://www.qt.io/qt-licensing
 
-ExifTool dient zum Lesen, Schreiben und Bearbeiten von Metadaten.
+Hinweis: Der Quellcode von PySide6 und Qt ist öffentlich verfügbar.
+Bei einer Weitergabe der App als Binärpaket sind die LGPL-Pflichten
+(Quellcode-Verfügbarkeit, Änderbarkeit der Bibliothek) zu beachten.
 
-ExifTool ist freie Software und kann unter denselben Bedingungen wie Perl weitergegeben werden, insbesondere unter der GNU General Public License (GPL) oder der Perl Artistic License.
+--------------------------------------------------------------------------------
+2. ExifTool
+--------------------------------------------------------------------------------
 
-Bei einer Weitergabe im App-Bundle sind die für die verwendete ExifTool-Version geltenden Lizenzbedingungen und Copyright-Hinweise zu beachten.
+ExifTool wird von Phil Harvey unter der Perl Artistic License bzw. der
+GNU General Public License (GPL) vertrieben. Dieses Programm nutzt die
+Möglichkeit, ExifTool im Rahmen der Artistic License zu verwenden.
 
-* Autor: Phil Harvey
-* Projekt und Lizenzinformationen: https://exiftool.org/
+Copyright (C) 2003-2026 Phil Harvey.
 
-4. Send2Trash
+Lizenztext (Artistic License 2.0):
+https://opensource.org/licenses/Artistic-2.0
 
-Send2Trash ermöglicht das Verschieben von Dateien in den Papierkorb des jeweiligen Betriebssystems.
+Weitere Informationen:
+https://exiftool.org/
 
-Send2Trash wird unter der BSD-3-Clause-Lizenz veröffentlicht.
+--------------------------------------------------------------------------------
+3. send2trash
+--------------------------------------------------------------------------------
 
-Bei einer Weitergabe der Bibliothek müssen die geltenden Copyright-Hinweise, Lizenzbedingungen und Haftungsausschlüsse erhalten bleiben.
+send2trash wird unter der BSD-3-Clause-Lizenz vertrieben.
 
-* Projekt: https://github.com/arsenetar/send2trash
-* Lizenz: https://opensource.org/license/bsd-3-clause
+Copyright (C) 2013-2026 Send2Trash-Autoren (Andrew Senetar, Virgil Dupras
+und weitere Mitwirkende).
 
-5. Nominatim und OpenStreetMap
+Lizenztext (BSD-3-Clause):
+https://opensource.org/licenses/BSD-3-Clause
 
-PictureChronoSort kann Nominatim verwenden, um anhand von GPS-Koordinaten einen Ortsnamen zu ermitteln (Reverse Geocoding).
+Weitere Informationen:
+https://github.com/arsenetar/send2trash
 
-OpenStreetMap-Daten stehen unter der Open Database License (ODbL). Bei der öffentlichen Verwendung entsprechender Daten ist eine angemessene Quellenangabe erforderlich. Je nach Art und Umfang der Nutzung können weitere Lizenzpflichten gelten.
+--------------------------------------------------------------------------------
+4. Nominatim / OpenStreetMap
+--------------------------------------------------------------------------------
 
-Für die Verwendung des öffentlichen Nominatim-Dienstes gelten zusätzlich dessen Nutzungsbedingungen. Dazu gehören unter anderem Einschränkungen der Abfragehäufigkeit, Anforderungen an die Identifizierung der Anwendung und Vorgaben zur Quellenangabe.
+Die GPS-Vorschlagsfunktion nutzt den Nominatim-Dienst, der auf Daten von
+OpenStreetMap basiert. Die Daten stehen unter der Open Database License
+(ODbL).
 
-Empfohlene Quellenangabe:
+Copyright (C) 2004-2026 OpenStreetMap-Mitwirkende.
 
-Ortsdaten: © OpenStreetMap-Mitwirkende. Daten verfügbar unter der Open Database License (ODbL).
+Lizenztext (ODbL):
+https://opendatacommons.org/licenses/odbl/
 
-* OpenStreetMap-Lizenz: https://www.openstreetmap.org/copyright
-* Nominatim-Nutzungsbedingungen: https://operations.osmfoundation.org/policies/nominatim/
+Nutzungsbedingungen von Nominatim:
+https://operations.osmfoundation.org/policies/nominatim/
 
-6. Python
+Copyright- und Lizenzhinweis für OpenStreetMap-Daten:
+https://www.openstreetmap.org/copyright
 
-Python wird unter der Python Software Foundation License (PSF License) und weiteren, versionsabhängig relevanten Lizenzbedingungen veröffentlicht.
+Hinweis: Bei der Anzeige oder Speicherung von Ortsdaten, die aus
+OpenStreetMap stammen, ist die Quellenangabe
+"© OpenStreetMap-Mitwirkende" erforderlich.
 
-Bei der Weitergabe einer Anwendung, die Python oder Bestandteile der Python-Laufzeitumgebung enthält, sind die für die tatsächlich verwendete Version geltenden Lizenz- und Copyright-Hinweise zu beachten.
+--------------------------------------------------------------------------------
+5. Python
+--------------------------------------------------------------------------------
 
-* Lizenzinformationen: https://docs.python.org/3/license.html
-* Python Software Foundation: https://www.python.org/psf/license/
+Python wird unter der Python Software Foundation License (PSF) vertrieben.
+
+Copyright (C) 2001-2026 Python Software Foundation.
+
+Lizenztext (PSF License):
+https://docs.python.org/3/license.html
+
+--------------------------------------------------------------------------------
+6. Sonstige Abhängigkeiten
+--------------------------------------------------------------------------------
+
+Darüber hinaus können weitere transitive Abhängigkeiten (z. B. shiboken6,
+Qt-Plugins) mit ausgeliefert werden. Deren Lizenztexte sind in den
+jeweiligen Paketen enthalten und gelten zusätzlich.
+
+================================================================================
+Ende der Drittanbieter-Lizenzhinweise
+================================================================================
 
 </details>
 
